@@ -2,13 +2,14 @@
 <html>
     <head>
         <title>Black Knights Robotics</title>
-        <link rel="icon" type="img" href="../images/logos/blackknightslogo.png">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="img" href="./images/logos/blackknightslogo.png">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        
     </head>
     <body>
         <header>
-            <img src="../images/logos/blackknightslogo.png" id="pagelogo">
+            <img src="./images/logos/blackknightslogo.png" id="pagelogo">
             <ul>
                 
 
@@ -45,103 +46,26 @@
             </div>
             
             <div class="weareimages">
-                <img class="weareimg one" src="../images/we_are/2036.jpg">
-                <img class="weareimg two" src="../images/we_are/builders.jpg">
-                <img class="weareimg three" src="../images/we_are/cheerers.jpg">
-                <img class="weareimg four" src="../images/we_are/coders.jpg">
-                <img class="weareimg five" src="../images/we_are/creators.jpg">
-                <img class="weareimg six" src="../images/we_are/doers.jpg">
-                <img class="weareimg seven" src="../images/we_are/innovators.jpg">
-                <img class="weareimg eight" src="../images/we_are/knights.jpg">
-                <img class="weareimg nine" src="../images/we_are/learners.jpg">
-                <img class="weareimg ten" src="../images/we_are/planners.jpg">
-                <img class="weareimg eleven" src="../images/we_are/teachers.jpg">
-                <img class="weareimg twelve" src="../images/we_are/technicians.jpg">
-                <img class="weareimg thirteen" src="../images/we_are/thinkers.jpg">
-                <img class="weareimg fourteen" src="../images/we_are/workers.jpg">
-                <img class="weareimg fifteen" src="../images/we_are/a team.jpg">
+                <img class="weareimg one" src="./images/we_are/2036.jpg">
+                <img class="weareimg two" src="./images/we_are/builders.jpg">
+                <img class="weareimg three" src="./images/we_are/cheerers.jpg">
+                <img class="weareimg four" src="./images/we_are/coders.jpg">
+                <img class="weareimg five" src="./images/we_are/creators.jpg">
+                <img class="weareimg six" src="./images/we_are/doers.jpg">
+                <img class="weareimg seven" src="./images/we_are/innovators.jpg">
+                <img class="weareimg eight" src="./images/we_are/knights.jpg">
+                <img class="weareimg nine" src="./images/we_are/learners.jpg">
+                <img class="weareimg ten" src="./images/we_are/planners.jpg">
+                <img class="weareimg eleven" src="./images/we_are/teachers.jpg">
+                <img class="weareimg twelve" src="./images/we_are/technicians.jpg">
+                <img class="weareimg thirteen" src="./images/we_are/thinkers.jpg">
+                <img class="weareimg fourteen" src="./images/we_are/workers.jpg">
+                <img class="weareimg fifteen" src="./images/we_are/a team.jpg">
             </div>
             
                 
             
         </div>
-       
-        <!-- Parallax Scrolling-->
-        <script>
-            let changingwords = document.getElementById("changingwords");
-            let wearewords = document.getElementById("wearewords");
-            let header = document.querySelector('header');
-            let wearetext = document.getElementById('wearetext')
-            let inOne = true
-            let inTwo = false
-            let inThree = false
-            let inFour = false
-            let inFive = false
-            let inSix = false
-            let inSeven = false
-            let inEight = false
-            let inNine = false
-            let inTen = false
-            let inEleven = false
-            let inTwelve = false
-            let inThirteen = false
-            let inFourteen = false
-            let inFifteen = false
-
-            function inRange(x, min, max) {
-                return ((x-min)*(x-max) <= 0);
-            }
-
-            window.addEventListener('scroll',function(){
-                let value = window.scrollY;
-                
-                if (inRange(value, 0, 475)) {
-                    if (inOne == false){
-                        inOne = true
-                        changingwords.setAttribute('class', 'changingwords-hide')
-                        setTimeout(() => {
-                            changingwords.textContent = '2036'
-                            changingwords.setAttribute("class", "changingwords-show");
-                        }, 300)
-                    }
-                } else {
-                    inOne = false
-                }
-
-
-                if (inRange(value, 475, 1600)) {
-                    if (inTwo == false){
-                        inTwo = true
-                        changingwords.setAttribute('class', 'changingwords-hide')
-                        setTimeout(() => {
-                            changingwords.textContent = 'BUILDERS'
-                            changingwords.setAttribute("class", "changingwords-show");
-                        }, 300)
-                        
-                    }
-                    
-                } else {
-                    inTwo = false
-                }
-                
-            })
-            function reveal() {
-                var reveals = document.querySelectorAll(".reveal");
-
-                for (var i = 0; i < reveals.length; i++) {
-                    var windowHeight = window.innerHeight;
-                    var elementTop = reveals[i].getBoundingClientRect().top;
-                    var elementVisible = 150;
-
-                    if (elementTop < windowHeight - elementVisible) {
-                        reveals[i].classList.add("active");
-                    } else {
-                      reveals[i].classList.remove("active");
-                    }
-                }
-            }
-            
-            window.addEventListener("scroll", reveal);
-        </script>
     </body>
+    <script src="./js/index.js"></script>
 </html>
