@@ -42,12 +42,14 @@ header .logo
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-left: -50px;
+    z-index: 100;
 }
 #pagelogo
 {
-    max-width: 4.5%;
-    height: auto;  
+    
+    height: 15vh;  
     margin-left: -120px; 
+    z-index: 100;
 }
 header ul
 {
