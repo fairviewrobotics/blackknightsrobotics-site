@@ -24,6 +24,10 @@ function inRange(x, min, max) {
 
 window.addEventListener('scroll',function(){
     let value = window.scrollY;
+    let height = this.window.screen.height;
+    console.log(value);
+    console.log(height);
+    console.log((value/height)*100)
     
     if (inRange(value, 0, 475)) {
         if (inOne == false){
