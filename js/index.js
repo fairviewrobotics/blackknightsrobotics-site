@@ -23,8 +23,8 @@ function inRange(x, min, max) {
 }
 
 window.addEventListener('scroll',function(){
-    let value = window.scrollY;
-    let height = this.window.screen.height;
+    let value = this.window.scrollY;
+    let height = this.window.innerHeight;
     console.log(value);
     console.log(height);
     console.log((value/height)*100)
