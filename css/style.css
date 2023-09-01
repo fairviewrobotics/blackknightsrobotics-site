@@ -12,9 +12,9 @@
 :root{
     --weareimgL: 66.7%;
 }
-html{
+/* html{
     scrollbar-width: none;
-}
+} */
 body
 {
     min-height: 100vh;
@@ -153,6 +153,7 @@ header ul li a.active
     font-size: 10vw;
     font-family: "Montserrat", sans-serif;
     z-index: 100;
+    white-space: nowrap;
 }
 
 .abouttext {
