@@ -227,6 +227,7 @@ header ul li a.active
     padding-left: 1vw;
     letter-spacing: 0.1vw;
     box-shadow: -0.2vw 0.2vw #adadad;
+    white-space: nowrap;
     
 }
 
