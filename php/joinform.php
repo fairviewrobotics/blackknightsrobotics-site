@@ -24,9 +24,9 @@ if(isset($_POST['submit'])){
     );
     $headers = implode("\r\n", $headers);
 
-    mail($to,$subject,$message,$headers);
+    @mail($to,$subject,$message,$headers);
     
-    echo "Mail Sent. Thank you " . $full_name . ", we will contact you shortly.";
+   
     
 }
 ?>
