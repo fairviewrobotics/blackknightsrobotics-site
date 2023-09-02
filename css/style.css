@@ -295,3 +295,10 @@ header ul li a.active
 .submitbtn:hover {
     background-color: #2f2f2f;
 }
+
+.calendar {
+    position: relative;
+    margin-top: 35vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
