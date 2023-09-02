@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black Knights Robotics</title>
+        <link rel="icon" type="img" href="../images/logos/blackknightslogo.png">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        
+    </head>
+    <body>
+        <header>
+            <a href="../index.html">
+                <img src="../images/logos/blackknightslogo.png" id="pagelogo" alt="LOGO">
+            </a>
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                
+                <div class="dropdown">
+                    <li><a href="#" class="Ensembles">About</a></li>
+                    <div class="dropdown-content">
+                      <a href="../pages/about.html">About the Team</a>
+                      <a href="#">Robots</a>
+                      <a href="#">Supporters</a>
+                    </div>
+                </div>
+                <!-- <li><span onclick="transitionToPage('../about.html')">About</span></li> -->
+
+                <!-- <span onclick="transitionToPage('https://www.google.com')"></span> -->
+
+                
+                <li><a href="#" class="Member Info">Calendar</a></li>
+
+                <li><a href="#" class="Member Info">Donate</a></li>
+                
+                <li><a href="#">Contact</a></li>
+
+                <li><a class="joinbtn" href="#">Join Us</a></li>
+            </ul>
+        </header>
+        
+        <div class="abouttop">
+            <img class="pageimg" src="../images/pageheaders/aboutTop.jpg">
+            <a class="pageheader">Join Us</a>
+        </div>
+
+
+        <div class="joininput">
+              
+              <form class="contact-form" method="post" action="../php/joinform.php">
+
+                <div class="col">
+                  <input type="text" id="fullname" name="full_name" placeholder="Full Name" class="smallinput">
+                </div>
+
+                <div class="col">
+                  <input type="text" id="email" name="email" placeholder="Email" class="smallinput">
+                </div>
+
+                <div class="col">
+                    <input type="text" id="school" name="school" placeholder="School" class="smallinput">
+                </div>
+
+                <div class="col">
+                    <input type="number" id="grade" name="grade" placeholder="Grade" class="smallinput">
+                </div>
+
+                <div class="col">
+                  <input type="text" id="extra" name="extra" placeholder="Anything else?" class="biginput">
+                </div>
+
+                <div class="col">
+                  <input type="submit" value="Send" class="submitbtn">
+                </div> 
+
+            </form>
+        </div>
+        
+
+        
+        
+    </body>
+    <script src="../js/header.js"></script>
+    
+</html>
