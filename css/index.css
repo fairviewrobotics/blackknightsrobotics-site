@@ -240,14 +240,13 @@ header ul li span.active
 /* Footer */
 
 footer {
-   
+    position: fixed;    
+    margin-top: 46vw;
     align-items: center;
     justify-content: center;
+    text-align: center;  
 
-    text-align: center;
-    margin-top: 46vw;
     left: 33.558vw;
-    position: fixed;    
     
 }
 
