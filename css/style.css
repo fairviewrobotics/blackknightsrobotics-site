@@ -340,6 +340,7 @@ header ul li a.active
     margin-top: 35vw;
     padding-left: 15vw;
     padding-right: 15vw;
+    margin-bottom: 4vw;
 }
 
 .robot-list .card {
