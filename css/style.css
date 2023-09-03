@@ -399,12 +399,16 @@ footer img {
     height: auto;
     margin-right: 3vw;
     margin-left: 3vw;
-    margin-bottom: 1vw;
+    
 }
 
 footer img:hover {
     -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
     mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+}
+
+footer a {
+    text-decoration: none;
 }
 
 .footeremail { 
@@ -414,8 +418,14 @@ footer img:hover {
     padding-bottom: 2vw;
     text-decoration: none;
     color: #000000;
+    font-size: 1vw;
 }
 
 .footeremail:hover {
     color: rgb(150, 0, 0);
 }
+
+.emailoffooter {
+    margin-top: -1vw;
+}
+

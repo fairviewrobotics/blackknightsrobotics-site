@@ -256,7 +256,7 @@ footer img {
     height: auto;
     margin-right: 3vw;
     margin-left: 3vw;
-    margin-bottom: 1vw;
+    
 }
 
 footer img:hover {
@@ -264,8 +264,14 @@ footer img:hover {
     mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
 }
 
+footer a {
+    text-decoration: none;
+    
+}
+
 .footeremail { 
     font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
     font-weight: normal;
     text-align: center;
     padding-bottom: 2vw;
@@ -273,6 +279,10 @@ footer img:hover {
     color: #000000;
 }
 
+
 .footeremail:hover {
     color: rgb(150, 0, 0);
+}
+.emailoffooter {
+    margin-top: -1vw;
 }
