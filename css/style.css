@@ -276,7 +276,7 @@ header ul li a.active
     background: #F1F1F1;
     border-radius: 0.5vw; 
     box-sizing: border-box; 
-    margin-top: 0.5vw; 
+    margin-top: 0.7vw; 
 
     resize: vertical; 
     word-break: break-word;
@@ -293,7 +293,7 @@ header ul li a.active
     background: #F1F1F1;
     border-radius: 0.5vw; 
     box-sizing: border-box; 
-    margin-top: 0.5vw; 
+    margin-top: 0.7vw; 
     resize: vertical; 
     word-break: break-word;
     white-space: normal;
@@ -304,7 +304,7 @@ header ul li a.active
     width: 70vw;
     color: white;
     padding: 12px 20px;
-    margin-top: 0.2vw; 
+    margin-top: 0.7vw; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -380,4 +380,40 @@ header ul li a.active
 
 .card-text {
     color: black;
+}
+
+/* Footer */
+
+footer {
+    position: relative;    
+    margin-top: -5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer img {
+    width: 2vw;
+    height: auto;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+}
+
+footer img:hover {
+    -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+}
+
+.footeremail { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 2vw;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footeremail:hover {
+    color: rgb(150, 0, 0);
 }
