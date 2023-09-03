@@ -253,7 +253,7 @@ header ul li a.active
     margin-top: 35vw;
     padding-left: 15vw;
     padding-right: 15vw;
-    
+    margin-bottom: 25vw;
     
 }
 
@@ -263,7 +263,7 @@ header ul li a.active
     margin-top: 35vw;
     padding-left: 15vw;
     padding-right: 15vw;
-    
+    margin-bottom: 10vw;
     
 }
 
@@ -323,6 +323,7 @@ header ul li a.active
     margin-top: 35vw;
     padding-left: 10vw;
     padding-right: 10vw;
+    margin-bottom: 10vw;
 }
 
 
