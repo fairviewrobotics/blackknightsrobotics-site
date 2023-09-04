@@ -18,7 +18,7 @@ html{
 body
 {
     min-height: 100vh;
-    
+    min-width: 101vw;
     /* background: linear-gradient(#ff0000,#000000); */
     overflow-x: hidden;
     -ms-overflow-style: none;
@@ -240,19 +240,23 @@ header ul li span.active
 /* Footer */
 
 footer {
-    position: fixed;    
-    margin-top: 46vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    bottom: -40vh;
+    position: fixed;
     align-items: center;
     justify-content: center;
     text-align: center;  
-
-    left: 33.558vw;
+    
+    /* left: 33.558vw; */
     
 }
 
 footer img {
     width: 2vw;
-    height: auto;
+    height: 2vw;
     margin-right: 3vw;
     margin-left: 3vw;
     
@@ -273,9 +277,9 @@ footer a {
     font-size: 1vw;
     font-weight: normal;
     text-align: center;
-    padding-bottom: 2vw;
     text-decoration: none;
     color: #000000;
+    
 }
 
 
@@ -283,5 +287,5 @@ footer a {
     color: rgb(150, 0, 0);
 }
 .emailoffooter {
-    margin-top: -1vw;
+    margin-top: 1vw;
 }
