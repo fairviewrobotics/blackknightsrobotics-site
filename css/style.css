@@ -18,15 +18,16 @@
 body
 {
     min-height: 100vh;
-    
+    display: flex;
+    flex-direction: column;
     /* background: linear-gradient(#ff0000,#000000); */
     overflow-x: hidden;
     -ms-overflow-style: none;
     
 }
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
     display: none;
-}
+} */
 header
 {
     position: fixed;
@@ -41,9 +42,6 @@ header
     background-color: #ffffffdf;
 
 }
-
-
-
 header .logo
 {
     color: #000000;
@@ -388,10 +386,11 @@ header ul li a.active
 
 footer {
     position: relative;    
-    margin-top: -5vw;
+    /* margin-top: -5vw; */
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 2vw;
 }
 
 footer img {
@@ -425,7 +424,7 @@ footer a {
     color: rgb(150, 0, 0);
 }
 
-.emailoffooter {
+/* .emailoffooter {
     margin-top: -1vw;
-}
+} */
 

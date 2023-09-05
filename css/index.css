@@ -14,17 +14,20 @@
 }
 html{
     scrollbar-width: none;
+   
+    
 }
 body
 {
     min-height: 100vh;
-    min-width: 101vw;
+    
     /* background: linear-gradient(#ff0000,#000000); */
     overflow-x: hidden;
     -ms-overflow-style: none;
 }
 body::-webkit-scrollbar{
     display: none;
+   
 }
 header
 {
@@ -32,11 +35,12 @@ header
     top: 0;
     left: 0;
     width: 170%;
-    padding: 10px 200px;
+    padding: 0.2vw 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
+
     
 }
 header .logo
@@ -83,7 +87,7 @@ header ul li a.active
     color: #000000;
     
 }
-header ul li span
+/* header ul li span
 {
     text-decoration: none;
     padding: 0.30em 0.75em;
@@ -102,7 +106,7 @@ header ul li span.active
     background: #b3b3b3;
     color: #000000;
     
-}
+} */
 .dropdown {
     position: relative;
     display: inline-block;
