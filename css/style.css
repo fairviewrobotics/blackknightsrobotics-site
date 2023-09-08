@@ -239,6 +239,7 @@ header ul li a.active
     max-width: 90vw;
     letter-spacing: 0.05vw;
     font-weight: lighter;
+    font-size: 1.1vw;
 }
 
 
@@ -263,6 +264,13 @@ header ul li a.active
     padding-right: 15vw;
     margin-bottom: 10vw;
     
+}
+
+.joininput p {
+    
+    font-size: 1.1vw;
+    letter-spacing: 0.05vw;
+    font-weight: lighter;
 }
 
 .smallinput {
