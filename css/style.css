@@ -393,6 +393,28 @@ header ul li a.active
     color: black;
 }
 
+/* Supporters Page */
+
+.sponsorlogos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+
+    position: relative;
+    margin-top: 35vw;
+    padding-left: 10vw;
+    padding-right: 8vw;
+    margin-bottom: 4vw;
+}
+
+.sponsorlogos img {
+   
+    max-width: 20vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
 /* Footer */
 
 footer {
