@@ -44,6 +44,7 @@ header
     
 }
 @media (max-width: 650px) {
+    
     header
     {
         position: fixed;
@@ -76,6 +77,7 @@ header
         
         cursor: pointer;
     }
+
       
       /* Dropdown button on hover & focus */
     
@@ -111,7 +113,7 @@ header
 
     
 
-@media (min-width: 1000vw) {
+@media (min-width: 650px) {
     
     header .logo
     {
@@ -130,6 +132,28 @@ header
         margin-left: -10em; 
         z-index: 100;
     }
+    #menuLogo{
+        display: none;
+    }
+    .dropbtnHeader {
+        
+        display: none;
+    }
+    .dropdown-contentHeader {
+        display: none;
+    }
+      
+      /* Links inside the dropdown */
+    .dropdown-contentHeader a {
+        display: none;
+    }
+      
+      /* Change color of dropdown links on hover */
+    #myDropdown{
+        display: none;
+    }
+    
+
     
 }
 header ul

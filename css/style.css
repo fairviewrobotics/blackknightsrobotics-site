@@ -43,6 +43,7 @@ header
 
 }
 @media (max-width: 650px) {
+    
     header
     {
         position: fixed;
@@ -75,6 +76,7 @@ header
         
         cursor: pointer;
     }
+
       
       /* Dropdown button on hover & focus */
     
@@ -105,10 +107,26 @@ header
       
       /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
     .show {display:block;}
+
+    .pageheader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -84vw;
+        color: black;
+        text-align: center;
+        font-size: 10vw;
+        font-family: "Montserrat", sans-serif;
+        z-index: 100;
+        white-space: nowrap;
+    }
      
 }
 
-@media (min-width: 1000vw) {
+    
+
+@media (min-width: 650px) {
     
     header .logo
     {
@@ -127,6 +145,41 @@ header
         margin-left: -10em; 
         z-index: 100;
     }
+    #menuLogo{
+        display: none;
+    }
+    .dropbtnHeader {
+        
+        display: none;
+    }
+    .dropdown-contentHeader {
+        display: none;
+    }
+      
+      /* Links inside the dropdown */
+    .dropdown-contentHeader a {
+        display: none;
+    }
+      
+      /* Change color of dropdown links on hover */
+    #myDropdown{
+        display: none;
+    }
+    .pageheader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: -7vw;
+        color: black;
+        text-align: center;
+        font-size: 10vw;
+        font-family: "Montserrat", sans-serif;
+        z-index: 100;
+        white-space: nowrap;
+    }
+    
+
     
 }
 header ul
@@ -215,19 +268,7 @@ header ul li a.active
     mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
     
 }
-.pageheader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -84vw;
-    color: black;
-    text-align: center;
-    font-size: 10vw;
-    font-family: "Montserrat", sans-serif;
-    z-index: 100;
-    white-space: nowrap;
-}
+
 
 
 /* About Page */
