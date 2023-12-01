@@ -108,6 +108,21 @@ header
       
       /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
     .show {display:block;}
+    .weareimg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+        /* height: 60em; */
+        /* width: 90.1em; */
+        width: 100.1%;
+        height: auto;
+        width: auto\9; /* ie8 */
+        z-index: -2;
+        -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+        mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+        
+    }
      
 }
 
@@ -151,6 +166,21 @@ header
       /* Change color of dropdown links on hover */
     #myDropdown{
         display: none;
+    }
+    .weareimg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 60em; */
+        /* width: 90.1em; */
+        width: 100.1%;
+        height: auto;
+        width: auto\9; /* ie8 */
+        z-index: -2;
+        -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+        mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+        
     }
     
 
@@ -279,21 +309,7 @@ header ul li span.active
     transition: all 0.3s ease;
 
 }
-.weareimg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* height: 60em; */
-    /* width: 90.1em; */
-    width: 100.1%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    z-index: -2;
-    -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-    mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-    
-}
+
 
 
 
