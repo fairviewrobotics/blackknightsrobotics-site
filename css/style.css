@@ -42,6 +42,8 @@ header
     background-color: #ffffffdf;
 
 }
+
+/* START OF MOBILE */
 @media (max-width: 650px) {
     
     header
@@ -55,7 +57,7 @@ header
         justify-content: space-between;
         align-items: center;
         z-index: 10000;   
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255, 0.0);
     }
 
     #pagelogo
@@ -113,18 +115,165 @@ header
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        margin-top: -84vw;
+        margin-top: -40vh;
         color: black;
         text-align: center;
-        font-size: 10vw;
+        font-size: 8vw;
         font-family: "Montserrat", sans-serif;
         z-index: 100;
         white-space: nowrap;
     }
+
+    /* About Page */
+    .abouttext {
+        position: relative;
+        margin-top: 35vw;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    
+    #img1 {
+        /* float: left;
+        padding-right: 2vw; */
+        width: 50vw;
+        height: auto;
+        margin-left: 10vw;
+        
+    }
+    
+    #img2 {
+        /* float: right;
+        padding-left: 2vw; */
+        width: 50vw;
+        height: auto;
+        margin-left: 10vw;
+        
+    }
+    
+    #img3 {
+        /* float: left;
+        padding-right: 2vw; */
+        width: 50vw;
+        height: auto;
+        margin-left: 10vw;
+        
+    }
+    
+    #img4 {
+        /* float: right;
+        padding-left: 2vw; */
+        width: 50vw;
+        height: auto;
+        margin-left: 10vw;
+        
+    }
+    
+    #img5 {
+        /* float: left;
+        padding-right: 2vw; */
+        width: 50vw;
+        height: auto;
+        margin-left: 10vw;
+        
+    }
+    
+    
+    .abouttext h1.rightheader {
+        font-size: 5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        margin-bottom: 1vw;
+        background-color: #dadada;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        /* padding-left: 15vw; */
+        letter-spacing: 0.1vw;
+        box-shadow: -0.2vw 0.2vw #adadad;
+        white-space: nowrap;
+        text-align: center;
+        
+    }
+    
+    .abouttext h1.leftheader {
+        font-size: 5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        margin-bottom: 1vw;
+        background-color: #dadada;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        /* padding-left: 15vw; */
+        letter-spacing: 0.1vw;
+        box-shadow: -0.2vw 0.2vw #adadad;
+        white-space: nowrap;
+        text-align: center;
+        
+    }
+    
+    .abouttext p {
+        /* text-align: justify; */
+        text-align: left;
+        max-width: 90vw;
+        /* letter-spacing: 0.05vw; */
+        font-weight: lighter;
+        font-size: 3vw;
+    }
+    .joininput p {
+    
+        font-size: 3vw;
+        letter-spacing: 0.05vw;
+        font-weight: lighter;
+    }
+
+    /* Footer */
+    footer {
+        position: relative;    
+        /* margin-top: -5vw; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2vw;
+    }
+    
+    footer img {
+        width: 5vw;
+        height: auto;
+        margin-right: 3vw;
+        margin-left: 3vw;
+        
+    }
+    
+    footer img:hover {
+        -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+        mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    .footeremail { 
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        text-align: center;
+        /* padding-bottom: 2vw; */
+        text-decoration: none;
+        color: #000000;
+        font-size: 2vw;
+    }
+    
+    .footeremail:hover {
+        color: rgb(150, 0, 0);
+    }
+    
      
 }
 
-    
+/* END OF MOBILE */
+
+
+
+/* START OF DESKTOP */
 
 @media (min-width: 650px) {
     
@@ -178,10 +327,146 @@ header
         z-index: 100;
         white-space: nowrap;
     }
+
+    /* About Page */
+    .abouttext {
+        position: relative;
+        margin-top: 35vw;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+    
+    #img1 {
+        float: left;
+        padding-right: 2vw;
+        width: 25vw;
+        height: auto;
+        
+    }
+    
+    #img2 {
+        float: right;
+        padding-left: 2vw;
+        width: 26vw;
+        height: auto;
+        
+    }
+    
+    #img3 {
+        float: left;
+        padding-right: 2vw;
+        width: 23vw;
+        height: auto;
+        
+    }
+    
+    #img4 {
+        float: right;
+        padding-left: 2vw;
+        width: 25vw;
+        height: auto;
+        
+    }
+    
+    #img5 {
+        float: left;
+        padding-right: 2vw;
+        width: 25vw;
+        height: auto;
+        
+    }
+    
+    
+    .abouttext h1.rightheader {
+        font-size: 3vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        margin-bottom: 1vw;
+        background-color: #dadada;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        letter-spacing: 0.1vw;
+        box-shadow: 0.2vw 0.2vw #adadad;
+        
+    }
+    
+    .abouttext h1.leftheader {
+        font-size: 3vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        margin-bottom: 1vw;
+        background-color: #dadada;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        padding-left: 1vw;
+        letter-spacing: 0.1vw;
+        box-shadow: -0.2vw 0.2vw #adadad;
+        white-space: nowrap;
+        
+    }
+    
+    .abouttext p {
+        text-align: justify;
+        max-width: 90vw;
+        letter-spacing: 0.05vw;
+        font-weight: lighter;
+        font-size: 1.1vw;
+    }
+    .joininput p {
+    
+        font-size: 1.1vw;
+        letter-spacing: 0.05vw;
+        font-weight: lighter;
+    }
+
+    footer {
+        position: relative;    
+        /* margin-top: -5vw; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2vw;
+    }
+    
+    footer img {
+        width: 2vw;
+        height: auto;
+        margin-right: 3vw;
+        margin-left: 3vw;
+        
+    }
+    
+    footer img:hover {
+        -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+        mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    .footeremail { 
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        text-align: center;
+        /* padding-bottom: 2vw; */
+        text-decoration: none;
+        color: #000000;
+        font-size: 1vw;
+    }
+    
+    .footeremail:hover {
+        color: rgb(150, 0, 0);
+    }
     
 
     
 }
+
+/* END OF DESKTOP */
+
+
+
 header ul
 {
     display: flex;
@@ -274,89 +559,7 @@ header ul li a.active
 /* About Page */
 
 
-.abouttext {
-    position: relative;
-    margin-top: 35vw;
-    padding-left: 15vw;
-    padding-right: 15vw;
-}
 
-#img1 {
-    float: left;
-    padding-right: 2vw;
-    width: 25vw;
-    height: auto;
-    
-}
-
-#img2 {
-    float: right;
-    padding-left: 2vw;
-    width: 26vw;
-    height: auto;
-    
-}
-
-#img3 {
-    float: left;
-    padding-right: 2vw;
-    width: 23vw;
-    height: auto;
-    
-}
-
-#img4 {
-    float: right;
-    padding-left: 2vw;
-    width: 25vw;
-    height: auto;
-    
-}
-
-#img5 {
-    float: left;
-    padding-right: 2vw;
-    width: 25vw;
-    height: auto;
-    
-}
-
-
-.abouttext h1.rightheader {
-    font-size: 3vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    margin-bottom: 1vw;
-    background-color: #dadada;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    letter-spacing: 0.1vw;
-    box-shadow: 0.2vw 0.2vw #adadad;
-    
-}
-
-.abouttext h1.leftheader {
-    font-size: 3vw;
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    margin-bottom: 1vw;
-    background-color: #dadada;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left: 1vw;
-    letter-spacing: 0.1vw;
-    box-shadow: -0.2vw 0.2vw #adadad;
-    white-space: nowrap;
-    
-}
-
-.abouttext p {
-    text-align: justify;
-    max-width: 90vw;
-    letter-spacing: 0.05vw;
-    font-weight: lighter;
-    font-size: 1.1vw;
-}
 
 
 /* Forms Pages */
@@ -382,12 +585,7 @@ header ul li a.active
     
 }
 
-.joininput p {
-    
-    font-size: 1.1vw;
-    letter-spacing: 0.05vw;
-    font-weight: lighter;
-}
+
 
 .smallinput {
 
@@ -533,45 +731,7 @@ header ul li a.active
 
 /* Footer */
 
-footer {
-    position: relative;    
-    /* margin-top: -5vw; */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2vw;
-}
 
-footer img {
-    width: 2vw;
-    height: auto;
-    margin-right: 3vw;
-    margin-left: 3vw;
-    
-}
-
-footer img:hover {
-    -webkit-mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-    mask-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-}
-
-footer a {
-    text-decoration: none;
-}
-
-.footeremail { 
-    font-family: "Montserrat", sans-serif;
-    font-weight: normal;
-    text-align: center;
-    /* padding-bottom: 2vw; */
-    text-decoration: none;
-    color: #000000;
-    font-size: 1vw;
-}
-
-.footeremail:hover {
-    color: rgb(150, 0, 0);
-}
 
 /* .emailoffooter {
     margin-top: -1vw;
