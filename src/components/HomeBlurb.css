@@ -5,17 +5,13 @@
   height: 400px;
 }
 
-.left {
-  justify-content: flex-start;
-}
-
-.right {
-  justify-content: flex-end;
-}
-
 .image {
   height: 400px;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+.image img {
+  max-height: 100%;
 }
 
 .text {
@@ -59,5 +55,13 @@
   .text h1 {
     font-size: 30px;
     margin-bottom: 20px;
+  }
+
+  .left {
+    justify-content: flex-end;
+  }
+
+  .right {
+    justify-content: flex-end;
   }
 }

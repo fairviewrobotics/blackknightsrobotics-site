@@ -13,7 +13,7 @@ const Home = () => {
       <HomeBlurb
         header="About Our Team"
         paragraph="HighTide Robotics, founded in 2018, provides opportunities for high school students from all around Ventura County, CA to participate in a competitive and meaningful way through the FIRST robotics competition. Students learn career-oriented skills in engineering, design, mathematics, computer science, and are inspired by industry professional mentors and FRC alumni dedicated to helping foster a competitive FRC team and educating team members."
-        image="/images/img-2.jpg"
+        image="/images/alliancePhoto.jpg"
         background="#cccccc"
         leftOrRight="right"
         text="#313131"

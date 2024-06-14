@@ -4,6 +4,22 @@ import { Button } from "./Button";
 import FadeInSection from "./FadeInSection";
 
 const HomeBlurb = (props) => {
+  const [vertical, setVertical] = React.useState(false);
+
+  const showVertical = () => {
+    if (window.innerWidth <= 960) {
+      setVertical(true);
+    } else {
+      setVertical(false);
+    }
+  };
+
+  React.useEffect(() => {
+    showVertical();
+  });
+
+  window.addEventListener("resize", showVertical);
+
   return (
     <div
       className={`blurb ${props.leftOrRight}`}
@@ -11,7 +27,7 @@ const HomeBlurb = (props) => {
         background: props.background,
       }}
     >
-      {props.leftOrRight === "left" ? (
+      {props.leftOrRight === "left" && !vertical ? (
         <>
           <div className={`image`}>
             <img src={props.image} alt={props.alt} />
