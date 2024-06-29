@@ -58,16 +58,21 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/services"
+                to="/robots"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                About
+                Robots
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Sponsors
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/products"
+                to="/calendar"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -75,7 +80,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="https://www.paypal.com/paypalme/blackKnights2036"
+                target="_blank"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Donate
               </Link>
             </li>
