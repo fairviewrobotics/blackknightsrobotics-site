@@ -13,7 +13,7 @@ const Home = () => {
       <HomeBlurb
         header="About Our Team"
         paragraph="Founded in 2007, Black Knights Robotics is a FIRST Robotics Competition team based in Boulder, Colorado. Our team is made up of students from various high schools in the Boulder Valley School District, and we are dedicated to inspiring young people to be science and technology leaders by engaging them in exciting programs that build science, engineering, and technology skills that inspire innovation and foster well-rounded life capabilities."
-        image="/images/tulsa2024fullTeam.jpg"
+        image="/images/colorado2024fullteam.jpg"
         background="#cccccc"
         leftOrRight="right"
         text="#313131"
