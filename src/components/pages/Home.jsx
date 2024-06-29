@@ -12,7 +12,7 @@ const Home = () => {
 
       <HomeBlurb
         header="About Our Team"
-        paragraph="HighTide Robotics, founded in 2018, provides opportunities for high school students from all around Ventura County, CA to participate in a competitive and meaningful way through the FIRST robotics competition. Students learn career-oriented skills in engineering, design, mathematics, computer science, and are inspired by industry professional mentors and FRC alumni dedicated to helping foster a competitive FRC team and educating team members."
+        paragraph="Founded in 2007, Black Knights Robotics is a FIRST Robotics Competition team based in Boulder, Colorado. Our team is made up of students from various high schools in the Boulder Valley School District, and we are dedicated to inspiring young people to be science and technology leaders by engaging them in exciting programs that build science, engineering, and technology skills that inspire innovation and foster well-rounded life capabilities."
         image="/images/tulsa2024fullTeam.jpg"
         background="#cccccc"
         leftOrRight="right"
@@ -23,7 +23,7 @@ const Home = () => {
 
       <HomeBlurb
         header="What is FIRST?"
-        paragraph="HighTide Robotics, founded in 2018, provides opportunities for high school students from all around Ventura County, CA to participate in a competitive and meaningful way through the FIRST robotics competition. Students learn career-oriented skills in engineering, design, mathematics, computer science, and are inspired by industry professional mentors and FRC alumni dedicated to helping foster a competitive FRC team and educating team members."
+        paragraph="FIRST (For Inspiration and Recognition of Science and Technology) is a global robotics community preparing young people for the future. Its mission is to inspire young people to be leaders and innovators in science and technology through mentor-based programs that build skills, inspire innovation, and foster self-confidence, communication, and leadership."
         image="/images/firstChamps.jpg"
         background="#ab4545"
         leftOrRight="left"
@@ -34,8 +34,8 @@ const Home = () => {
 
       <HomeBlurb
         header="Our Members"
-        paragraph="HighTide Robotics, founded in 2018, provides opportunities for high school students from all around Ventura County, CA to participate in a competitive and meaningful way through the FIRST robotics competition. Students learn career-oriented skills in engineering, design, mathematics, computer science, and are inspired by industry professional mentors and FRC alumni dedicated to helping foster a competitive FRC team and educating team members."
-        image="/images/img-4.jpg"
+        paragraph="Our team consists of students from various high schools in the Boulder Valley School District, bringing together diverse interests and skills in programming, mechanical engineering, electrical engineering, business, and more. Our dedicated mentors support students in learning and growing in their areas of interest."
+        image="/images/members.jpg"
         background="#000000"
         leftOrRight="right"
         text="#939393"
