@@ -1,0 +1,9 @@
+.carousel-wrapper {
+  width: 100vw;
+}
+
+.carousel-wrapper img {
+  height: 650px;
+  overflow: hidden;
+  object-fit: cover;
+}

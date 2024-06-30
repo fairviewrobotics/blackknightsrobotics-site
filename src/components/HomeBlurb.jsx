@@ -1,7 +1,9 @@
 import React from "react";
-import "./HomeBlurb.css";
+import "./styles/HomeBlurb.css";
 import { Button } from "./Button";
 import FadeInSection from "./FadeInSection";
+
+//TODO: Fix mobile spacing weirdness
 
 const HomeBlurb = (props) => {
   const [vertical, setVertical] = React.useState(false);

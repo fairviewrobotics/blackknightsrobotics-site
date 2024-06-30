@@ -1,7 +1,8 @@
 import React from "react";
+import CarouselSection from "../CarouselSection";
 
-const Robots = () => {
-  return <div>Robots</div>;
+const Robots = (props) => {
+  return <CarouselSection />;
 };
 
 export default Robots;
