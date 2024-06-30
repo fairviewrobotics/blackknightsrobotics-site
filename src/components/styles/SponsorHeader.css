@@ -1,22 +1,60 @@
-.sponsor-header h1 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 72px;
-}
-
-.sponsor-header p {
-  padding-top: 5px;
-  padding-bottom: 15px;
-  font-size: 18px;
-  width: 90%;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 .sponsor-header {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  max-height: 500px;
+
+  padding: 30px;
+}
+
+.sponsor-img {
+  position: absolute;
+  object-fit: cover;
+  overflow: hidden;
+  width: 2100px;
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 25, 0.3)
+  );
+  mask-image: linear-gradient(
+    rgba(255, 255, 25, 0.3),
+    rgba(255, 255, 255, 0.3)
+  );
+
+  transform: translate(0px, -300px);
+}
+
+.sponsor-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-direction: column;
-  height: 350px;
+  max-width: 70vw;
+  padding: 0px 30px;
+}
+
+.sponsor-image {
+  display: flex;
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.sponsor-header h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.sponsor-header p {
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 30px;
+}
+
+.sponsor-header Button {
+  width: 400px;
+  height: 50px;
 }
