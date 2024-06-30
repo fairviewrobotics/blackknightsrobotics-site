@@ -28,7 +28,7 @@ const CarouselSection = () => {
           robotAlt="2024 Robot"
         />
         <CarouselItem
-          background="/images/2023alliancePhoto.jpg"
+          background="/images/2023alliancephoto.jpg"
           gameImage="/images/Charged_Up_Log.png"
           alt="Alliance Photo"
           year="2023"
