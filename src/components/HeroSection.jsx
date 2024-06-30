@@ -43,6 +43,7 @@ const HeroSection = () => {
             className="btns"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
+            linkTo={"https://forms.gle/4sZn77WfD19b8MAg6"}
           >
             JOIN US <i className="fas fa-arrow-right" />
           </Button>

@@ -31,6 +31,7 @@ const Home = () => {
         text="#242424"
         buttonText="Check out FIRST"
         buttonColor="black"
+        link="https://www.firstinspires.org/"
       />
 
       <HomeBlurb

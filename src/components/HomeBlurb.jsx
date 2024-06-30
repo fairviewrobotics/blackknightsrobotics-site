@@ -41,7 +41,10 @@ const HomeBlurb = (props) => {
               <p>{props.paragraph}</p>
             </FadeInSection>
             <FadeInSection left="right">
-              <Button buttonStyle={`btn--${props.buttonColor}`}>
+              <Button
+                buttonStyle={`btn--${props.buttonColor}`}
+                linkTo={props.link}
+              >
                 {props.buttonText}
               </Button>
             </FadeInSection>
@@ -55,7 +58,10 @@ const HomeBlurb = (props) => {
               <p>{props.paragraph}</p>
             </FadeInSection>
             <FadeInSection left="left">
-              <Button buttonStyle={`btn--${props.buttonColor}`}>
+              <Button
+                buttonStyle={`btn--${props.buttonColor}`}
+                linkTo={props.link}
+              >
                 {props.buttonText}
               </Button>
             </FadeInSection>

@@ -13,6 +13,11 @@
   align-items: center;
 }
 
+.social-media-wrapper img {
+  width: 40px;
+  height: 40px;
+}
+
 .social-icon-link {
   color: #fff;
   font-size: 24px;

@@ -8,44 +8,36 @@ const Footer = () => {
     <div className="footer-container">
       <div className="social-media-wrapper">
         <Link
-          className="social-icon-link facebook"
-          to="/"
-          target="_blank"
-          aria-label="Facebook"
-        >
-          <i className="fab fa-facebook-f" />
-        </Link>
-        <Link
-          className="social-icon-link instagram"
-          to="/"
-          target="_blank"
-          aria-label="Instagram"
-        >
-          <i className="fab fa-instagram" />
-        </Link>
-        <Link
           className="social-icon-link youtube"
-          to="/"
+          to="https://www.youtube.com/@fairviewrobotics7830"
           target="_blank"
           aria-label="Youtube"
         >
-          <i className="fab fa-youtube" />
+          <img src="/images/logos/youtubeIcon.png" alt="Youtube"></img>
         </Link>
         <Link
-          className="social-icon-link twitter"
-          to="/"
+          className="social-icon-link instagram"
+          to="https://www.instagram.com/blackknights2036/"
           target="_blank"
-          aria-label="Twitter"
+          aria-label="Instagram"
         >
-          <i className="fab fa-twitter" />
+          <img src="/images/logos/instagramIcon.png" alt="Instagram"></img>
         </Link>
         <Link
-          className="social-icon-link twitter"
-          to="/"
+          className="social-icon-link github"
+          to="https://github.com/fairviewrobotics"
           target="_blank"
-          aria-label="LinkedIn"
+          aria-label="Github"
         >
-          <i className="fab fa-linkedin" />
+          <img src="/images/logos/githubIcon.png" alt="Github"></img>
+        </Link>
+        <Link
+          className="social-icon-link tba"
+          to="https://www.thebluealliance.com/team/2036"
+          target="_blank"
+          aria-label="TBA"
+        >
+          <img src="/images/logos/theblueallianceIcon.png" alt="TBA"></img>
         </Link>
       </div>
 
