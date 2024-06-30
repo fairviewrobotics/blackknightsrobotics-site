@@ -19,6 +19,7 @@ const Home = () => {
         text="#313131"
         buttonText="Learn More"
         buttonColor="black"
+        id="learn-more-redirect"
       />
 
       <HomeBlurb

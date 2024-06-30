@@ -10,19 +10,13 @@ import CarouselItem from "./CarouselItem";
 const CarouselSection = () => {
   return (
     <div className="carousel-wrapper">
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true}>
-        {/* <div>
-          <img src="/images/alliancePhoto.jpg" />
-          <p className="legend">Legend 1</p>
-        </div>
-        <div>
-          <img src="/images/firstChamps.jpg" />
-          <p className="legend">Legend 2</p>
-        </div>
-        <div>
-          <img src="/images/pit-lol.jpg" />
-          <p className="legend">Legend 3</p>
-        </div> */}
+      <Carousel
+        showThumbs={false}
+        showStatus={false}
+        infiniteLoop={true}
+        swipeable={true}
+        useKeyboardArrows={true}
+      >
         <CarouselItem
           background="/images/alliancePhoto.jpg"
           gameImage="/images/Crescendo_FRC_Logo.svg"
@@ -102,6 +96,67 @@ const CarouselSection = () => {
           description="Our 2016 robot, Atlas was designed to shoot balls, navigate the terrain, and play defense."
           robotImage="/images/2016robot.png"
           robotAlt="2016 Robot"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Infinite Recharge"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Infinite Recharge"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Robot Name"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Robot Name"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Robot Name"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Robot Name"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Robot Name"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
+        />
+        <CarouselItem
+          background="/images/alliancePhoto.jpg"
+          gameImage="/images/firstChamps.jpg"
+          year="2020"
+          robotName="Robot Name"
+          description="Our 2020 robot, Infinite Recharge, was designed to shoot balls into the high and low goals, climb the generator switch, and play defense."
+          robotImage="/images/vision-systems.jpg"
         />
       </Carousel>
     </div>

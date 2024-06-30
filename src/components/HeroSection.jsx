@@ -5,6 +5,8 @@ import "../App.css";
 import { ParallaxBanner } from "react-scroll-parallax";
 
 const HeroSection = () => {
+  const learnMoreRedirect = window["learn-more-redirect"];
+
   const background = {
     image:
       "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
@@ -33,6 +35,7 @@ const HeroSection = () => {
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
+            linkTo={learnMoreRedirect}
           >
             LEARN MORE
           </Button>
