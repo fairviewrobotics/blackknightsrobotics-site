@@ -12,6 +12,7 @@ import SignUp from "./components/pages/SignUp";
 import Footer from "./components/Footer";
 import Calendar from "./components/pages/Calendar";
 import Robots from "./components/pages/Robots";
+import Sponsors from "./components/pages/Sponsors";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />}></Route>
             <Route path="/services" element={<Services />}></Route>
+            <Route path="/sponsors" element={<Sponsors />}></Route>
             <Route path="/products" element={<Products />}></Route>
             <Route path="/sign-up" element={<SignUp />}></Route>
             <Route path="/calendar" element={<Calendar />}></Route>
