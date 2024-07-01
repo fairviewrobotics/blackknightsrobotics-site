@@ -13,7 +13,7 @@ const Footer = () => {
           target="_blank"
           aria-label="Youtube"
         >
-          <img src="/images/logos/youtubeIcon.png" alt="Youtube"></img>
+          <img src="/images/logos/youtubeIconWhite.png" alt="Youtube"></img>
         </Link>
         <Link
           className="social-icon-link instagram"
@@ -21,7 +21,7 @@ const Footer = () => {
           target="_blank"
           aria-label="Instagram"
         >
-          <img src="/images/logos/instagramIcon.png" alt="Instagram"></img>
+          <img src="/images/logos/instagramIconWhite.png" alt="Instagram"></img>
         </Link>
         <Link
           className="social-icon-link github"
@@ -29,7 +29,7 @@ const Footer = () => {
           target="_blank"
           aria-label="Github"
         >
-          <img src="/images/logos/githubIcon.png" alt="Github"></img>
+          <img src="/images/logos/githubIconWhite.png" alt="Github"></img>
         </Link>
         <Link
           className="social-icon-link tba"
@@ -37,7 +37,7 @@ const Footer = () => {
           target="_blank"
           aria-label="TBA"
         >
-          <img src="/images/logos/theblueallianceIcon.png" alt="TBA"></img>
+          <img src="/images/logos/theblueallianceIconWhite.png" alt="TBA"></img>
         </Link>
       </div>
 
