@@ -22,7 +22,7 @@
   max-height: 100px;
   max-width: 200px;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .year {
