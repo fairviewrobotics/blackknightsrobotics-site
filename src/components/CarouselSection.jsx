@@ -89,7 +89,7 @@ const CarouselSection = () => {
         />
         <CarouselItem
           background="/images/strongholdgam.jpeg"
-          gameImage="/images/first-stronghold-logo-color.jpg"
+          gameImage="/images/first-stronghold-logo-color-nb.png"
           alt="Alliance Photo"
           year="2016"
           robotName="Atlas"
