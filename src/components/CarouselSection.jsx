@@ -33,7 +33,7 @@ const CarouselSection = () => {
           alt="Alliance Photo"
           year="2023"
           robotName="Neovenator"
-          description="Our 2023 robot, Neovenator, was designed to plce balls into the high and low poles, climb the charge station, and play defense."
+          description="Our 2023 robot, Neovenator, was designed to place balls into the high and low poles, climb the charge station, and play defense."
           robotImage="/images/vision-systems.jpg"
           robotAlt="2023 Robot"
         />
@@ -83,7 +83,7 @@ const CarouselSection = () => {
           alt="Alliance Photo"
           year="2017"
           robotName="Shopping Kart"
-          description="Our 2017 robot, Shopping Kart. It was designed to place gears, shoot balls, climb the tower, and play defense."
+          description="Our 2017 robot, Shopping Kart, was designed to place gears, shoot balls, climb the tower, and play defense."
           robotImage="/images/2017robot.png"
           robotAlt="2017 Robot"
         />
