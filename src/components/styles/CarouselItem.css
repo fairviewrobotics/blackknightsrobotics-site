@@ -80,3 +80,56 @@
     rgba(255, 255, 255, 0.3)
   );
 }
+
+@media screen and (max-width: 960px) {
+  .carousel-item-wrapper {
+    padding: 0;
+  }
+  .carousel-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 100%;
+  }
+
+  .carousel-header-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-header img {
+    max-width: 150px;
+    margin-bottom: 5px;
+  }
+
+  .year {
+    font-size: 30px;
+    margin-right: 15px;
+  }
+
+  .name {
+    font-size: 30px;
+    margin-left: 15px;
+    /* text-wrap: wrap; */
+  }
+
+  .carousel-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .carousel-content img {
+    max-width: 90vw;
+    max-height: 90vw;
+  }
+
+  .carousel-content p {
+    margin-top: 10px;
+  }
+}
