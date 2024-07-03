@@ -32,7 +32,7 @@ const HeroSection = () => {
 
         <div className="hero-btns">
           <Button
-            className="btns"
+            className="btns learn-more"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
             linkTo={learnMoreRedirect}
@@ -40,12 +40,13 @@ const HeroSection = () => {
             LEARN MORE
           </Button>
           <Button
-            className="btns"
+            className="btns join-us"
             buttonStyle="btn--primary"
             buttonSize="btn--large"
             linkTo={"https://forms.gle/4sZn77WfD19b8MAg6"}
           >
-            JOIN US <i className="fas fa-arrow-right" />
+            JOIN US <img src="/images/icons/arrow_forward.svg" alt="Arrow" />
+            {/* JOIN US <i className="fas fa-arrow-right" /> */}
           </Button>
         </div>
       </div>
