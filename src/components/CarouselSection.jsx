@@ -11,6 +11,8 @@ import { useState } from "react";
 const CarouselSection = () => {
   const [mobile, setMobile] = useState(window.innerWidth <= 960);
 
+  const [allowClick, setAllowClick] = useState(true);
+
   const mobileHandler = () => {
     setMobile(window.innerWidth <= 960);
   };
@@ -18,8 +20,12 @@ const CarouselSection = () => {
   const showScrollButton = () => {
     if (window.scrollY >= window.innerHeight / 3 || !mobile) {
       document.querySelector(".carousel-scroll-btn").style.opacity = "0";
+      document.querySelector(".carousel-scroll-btn").style.cursor = "default";
+      setAllowClick(false);
     } else {
       document.querySelector(".carousel-scroll-btn").style.opacity = "1";
+      document.querySelector(".carousel-scroll-btn").style.cursor = "pointer";
+      setAllowClick(true);
     }
   };
 
@@ -128,7 +134,7 @@ const CarouselSection = () => {
       </div>
       <button
         className="carousel-scroll-btn"
-        onClick={mobile ? scrollHandler : null}
+        onClick={mobile && allowClick ? scrollHandler : null}
       >
         <img src="/images/icons/keyboard_arrow_down.svg" alt="Scroll Down" />
       </button>
