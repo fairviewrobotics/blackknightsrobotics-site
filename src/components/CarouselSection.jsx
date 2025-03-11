@@ -18,14 +18,17 @@ const CarouselSection = () => {
   };
 
   const showScrollButton = () => {
-    if (window.scrollY >= window.innerHeight / 3 || !mobile) {
-      document.querySelector(".carousel-scroll-btn").style.opacity = "0";
-      document.querySelector(".carousel-scroll-btn").style.cursor = "default";
-      setAllowClick(false);
-    } else {
-      document.querySelector(".carousel-scroll-btn").style.opacity = "1";
-      document.querySelector(".carousel-scroll-btn").style.cursor = "pointer";
-      setAllowClick(true);
+    const scrollButton = document.querySelector(".carousel-scroll-btn");
+    if (scrollButton) {
+      if (window.scrollY >= window.innerHeight / 3 || !mobile) {
+        scrollButton.style.opacity = "0";
+        scrollButton.style.cursor = "default";
+        setAllowClick(false);
+      } else {
+        scrollButton.style.opacity = "1";
+        scrollButton.style.cursor = "pointer";
+        setAllowClick(true);
+      }
     }
   };
 

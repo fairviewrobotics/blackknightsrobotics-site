@@ -5,7 +5,6 @@ import "./styles/SponsorHeader.css";
 const SponsorHeader = () => {
   return (
     <div className="sponsor-header">
-      <img src="/images/members.jpg" alt="Sponsors" className="sponsor-img" />
       <div className="sponsor-text">
         <h1>Sponsors</h1>
         <p>
