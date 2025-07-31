@@ -42,6 +42,17 @@
   margin: 6px;
 }
 
+.hero-btns img {
+  filter: brightness(0) saturate(100%);
+  transform: translateY(3px);
+  margin-left: 4px;
+  max-height: 20px;
+}
+
+.hero-btns .btn:hover img {
+  filter: brightness(0) saturate(100%) invert(1);
+}
+
 .fa-play-circle {
   margin-left: 4px;
 }

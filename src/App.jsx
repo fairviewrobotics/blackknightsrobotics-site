@@ -14,9 +14,12 @@ import Calendar from "./components/pages/Calendar";
 import Robots from "./components/pages/Robots";
 import Sponsors from "./components/pages/Sponsors";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <>
+      <Analytics />
       <Router>
         <ParallaxProvider>
           <Navbar />

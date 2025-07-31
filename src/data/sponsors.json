@@ -1,7 +1,96 @@
 {
-  "bronze": [
+  "Gold": [
     {
-      "src": "/images/sponsors/"
+      "sponsors": [
+        {
+          "type": "logo",
+          "name": "Trimble",
+          "src": "/images/sponsors/trimble.png",
+          "link": "https://www.trimble.com"
+        },
+        {
+          "type": "logo",
+          "name": "Comcast",
+          "src": "/images/sponsors/comcast.png",
+          "link": "https://www.comcast.com"
+        },
+        {
+          "type": "text",
+          "name": ["Stu Pomerantz"]
+        },
+        {
+          "type": "logo",
+          "name": "Apple",
+          "src": "/images/sponsors/apple.svg",
+          "link": "https://www.apple.com"
+        },
+        {
+          "type": "logo",
+          "name": "Gene Haas Foundation",
+          "src": "/images/sponsors/haas.png",
+          "link": "https://www.ghaasfoundation.org/"
+        }
+      ]
+    }
+  ],
+  "Silver": [
+    {
+      "sponsors": [
+        {
+          "type": "logo",
+          "name": "BoulderHOA",
+          "src": "/images/sponsors/hoa.png",
+          "link": "https://www.boulderhoa.com"
+        },
+        {
+          "type": "logo",
+          "name": "Metrix Inspection Group",
+          "src": "/images/sponsors/metrix.png",
+          "link": "https://metrixig.com/"
+        },
+        {
+          "type": "text",
+          "name": ["Anonymous", "Quigley Family"]
+        },
+        {
+          "type": "logo",
+          "name": "BAE Systems",
+          "src": "/images/sponsors/bae.png",
+          "link": "https://www.baesystems.com"
+        }
+      ]
+    }
+  ],
+  "Bronze": [
+    {
+      "sponsors": [
+        {
+          "type": "text",
+          "name": "Andrew & Cynthia Naumoff"
+        },
+        {
+          "type": "logo",
+          "name": "The Caruso Foundation",
+          "src": "/images/sponsors/caruso.png",
+          "link": "https://dan-caruso.com/caruso-foundation/"
+        }
+      ]
+    }
+  ],
+  "Family": [
+    {
+      "sponsors": [
+        {
+          "type": "text",
+          "name": ["Sangvikar Family", "Anonymous"]
+        },
+        {
+          "type": "logo",
+          "name": "Dr Wong Orthodontics",
+          "src": "/images/sponsors/wong.png",
+          "link": "https://drwongortho.com/"
+        }
+      ]
     }
   ]
 }
