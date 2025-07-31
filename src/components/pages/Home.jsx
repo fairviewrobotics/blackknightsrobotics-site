@@ -37,7 +37,7 @@ const Home = () => {
       <HomeBlurb
         header="Our Members"
         paragraph="Our team consists of students from various high schools in the Boulder Valley School District, bringing together diverse interests and skills in programming, mechanical engineering, electrical engineering, business, and more. Our dedicated mentors support students in learning and growing in their areas of interest."
-        image={`${process.env.PUBLIC_URL}/images/members.jpg"`}
+        image={`${process.env.PUBLIC_URL}/images/test.jpg"`}
         background="#000000"
         leftOrRight="right"
         text="#939393"
