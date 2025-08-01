@@ -13,7 +13,7 @@ const Home = () => {
       <HomeBlurb
         header="About Our Team"
         paragraph="Founded in 2007, Black Knights Robotics is a FIRST Robotics Competition team based in Boulder, Colorado. Our team is made up of students from various high schools in the Boulder Valley School District, and we are dedicated to inspiring young people to be science and technology leaders by engaging them in exciting programs that build science, engineering, and technology skills that inspire innovation and foster well-rounded life capabilities."
-        image={`${process.env.PUBLIC_URL}/images/colorado2024fullteam.jpg`}
+        image="/images/colorado2024fullteam.jpg"
         background="#cccccc"
         leftOrRight="right"
         text="#313131"
@@ -25,7 +25,7 @@ const Home = () => {
       <HomeBlurb
         header="What is FIRST?"
         paragraph="FIRST (For Inspiration and Recognition of Science and Technology) is a global robotics community preparing young people for the future. Its mission is to inspire young people to be leaders and innovators in science and technology through mentor-based programs that build skills, inspire innovation, and foster self-confidence, communication, and leadership."
-        image={`${process.env.PUBLIC_URL}/images/test.JPG"`}
+        image="/images/test.JPG"
         background="#ab4545"
         leftOrRight="left"
         text="#242424"
@@ -37,7 +37,7 @@ const Home = () => {
       <HomeBlurb
         header="Our Members"
         paragraph="Our team consists of students from various high schools in the Boulder Valley School District, bringing together diverse interests and skills in programming, mechanical engineering, electrical engineering, business, and more. Our dedicated mentors support students in learning and growing in their areas of interest."
-        image={`${process.env.PUBLIC_URL}/images/test.jpg"`}
+        image="/images/test.jpg"
         background="#000000"
         leftOrRight="right"
         text="#939393"
