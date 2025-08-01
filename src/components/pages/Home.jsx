@@ -25,7 +25,7 @@ const Home = () => {
       <HomeBlurb
         header="What is FIRST?"
         paragraph="FIRST (For Inspiration and Recognition of Science and Technology) is a global robotics community preparing young people for the future. Its mission is to inspire young people to be leaders and innovators in science and technology through mentor-based programs that build skills, inspire innovation, and foster self-confidence, communication, and leadership."
-        image="images/firstChamps.jpg"
+        image="/images/firstChamps.jpg"
         background="#ab4545"
         leftOrRight="left"
         text="#242424"
