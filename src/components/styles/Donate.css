@@ -474,3 +474,17 @@
     height: 600px;
   }
 }
+
+/* Custom background image dimming on the Donate page for perfect white text readability */
+.donate-bg-img {
+  -webkit-mask-image: linear-gradient(
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.5)
+  ) !important;
+  mask-image: linear-gradient(
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.5)
+  ) !important;
+  opacity: 0.35 !important;
+  filter: brightness(0.3) contrast(1.1) !important;
+}

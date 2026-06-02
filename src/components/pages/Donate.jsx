@@ -5,8 +5,8 @@ import "../styles/Donate.css";
 const Donate = () => {
   return (
     <div className="donate-container">
-      {/* Parallax Background Cover (reused from sponsors style) */}
-      <img src="/images/members.jpg" alt="Support Us" className="sponsor-cover sponsor-img" />
+      {/* Parallax Background Cover (reused from sponsors style, custom dimming for Donate) */}
+      <img src="/images/members.jpg" alt="Support Us" className="sponsor-cover sponsor-img donate-bg-img" />
 
       <div className="donate-header-section">
         <h1 className="donate-title">Support The Black Knights</h1>
