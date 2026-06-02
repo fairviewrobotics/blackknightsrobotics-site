@@ -1,0 +1,478 @@
+.donate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 60px 5% 100px;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Header Section styling */
+.donate-header-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  max-width: 800px;
+  z-index: 2;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.donate-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+}
+
+.donate-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Content Layout Grid */
+.donate-content-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  align-items: start;
+  z-index: 2;
+  margin-bottom: 80px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.donate-info-column,
+.donate-widget-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Glassmorphic Cards */
+.glass-card {
+  background: rgba(28, 27, 27, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+              box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+              border-color 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5),
+              inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Card typography & custom sections */
+.donate-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  letter-spacing: -0.5px;
+}
+
+.donate-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.badge {
+  background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+  color: #000000;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.detail-item {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 3px solid #d4af37;
+  padding: 12px 15px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.detail-item strong {
+  color: #ffffff;
+}
+
+/* Cash & Check Card Styles */
+.check-instructions {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.payee-box {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.mailing-address {
+  font-style: normal;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.mailing-address br {
+  margin-bottom: 4px;
+}
+
+.check-instructions a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.check-instructions a:hover {
+  color: #d4af37;
+}
+
+/* Zeffy Widget Card Styles */
+.zeffy-widget-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.widget-header h2 {
+  margin-bottom: 10px;
+}
+
+.zeffy-notice {
+  font-size: 0.95rem !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-bottom: 25px !important;
+}
+
+.zeffy-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.zeffy-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.widget-fallback {
+  margin-top: 25px;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.widget-fallback p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.widget-fallback button {
+  width: auto !important;
+  min-width: 200px;
+  padding: 12px 24px;
+}
+
+/* Annual Sponsorship Tiers styling */
+.sponsorship-tiers-section {
+  width: 100%;
+  max-width: 1200px;
+  z-index: 2;
+  margin-top: 40px;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 50px;
+}
+
+/* Tiers Cards Grid */
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  width: 100%;
+  margin-bottom: 50px;
+  align-items: stretch;
+}
+
+.tier-card {
+  background: rgba(20, 20, 20, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+              box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+              border-color 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tier-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.tier-card:hover {
+  transform: translateY(-8px);
+  background: rgba(25, 25, 25, 0.75);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Custom visual weights for tiers */
+.family-tier::before { background: #b0bec5; }
+.bronze-tier::before { background: #cd7f32; }
+.silver-tier::before { background: #c0c0c0; }
+.gold-tier {
+  background: rgba(30, 26, 20, 0.65);
+  border: 1.5px solid rgba(212, 175, 55, 0.2);
+}
+.gold-tier::before {
+  background: linear-gradient(90deg, #d4af37 0%, #f3e5ab 100%);
+  height: 5px;
+}
+.gold-tier:hover {
+  border-color: rgba(212, 175, 55, 0.55);
+  background: rgba(38, 32, 22, 0.8);
+  box-shadow: 0 25px 45px rgba(212, 175, 55, 0.12), 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.tier-header {
+  margin-bottom: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.tier-header h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.tier-price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.tier-badge {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+  color: #000000;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 2px 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  letter-spacing: 0.5px;
+}
+
+.tier-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.tier-benefits li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: flex-start;
+}
+
+.benefit-bullet {
+  color: rgba(255, 255, 255, 0.35);
+  margin-right: 8px;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.gold-tier .benefit-bullet {
+  color: #d4af37;
+}
+
+.sponsorship-note {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px dashed rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsorship-note p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  text-align: center;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Rules */
+@media screen and (max-width: 1200px) {
+  .tiers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .donate-container {
+    padding: 40px 20px 80px;
+  }
+
+  .donate-title {
+    font-size: 2.8rem;
+  }
+
+  .donate-content-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .zeffy-iframe-wrapper {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .donate-title {
+    font-size: 2.2rem;
+  }
+
+  .donate-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .tiers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .glass-card {
+    padding: 25px 20px;
+  }
+
+  .zeffy-iframe-wrapper {
+    height: 600px;
+  }
+}

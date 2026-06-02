@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Calendar from "./components/pages/Calendar";
 import Robots from "./components/pages/Robots";
 import Sponsors from "./components/pages/Sponsors";
+import Donate from "./components/pages/Donate";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/sign-up" element={<SignUp />}></Route>
             <Route path="/calendar" element={<Calendar />}></Route>
             <Route path="/robots" element={<Robots />}></Route>
+            <Route path="/donate" element={<Donate />}></Route>
           </Routes>
           <Footer />
         </ParallaxProvider>

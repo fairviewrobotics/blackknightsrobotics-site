@@ -85,8 +85,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="https://www.paypal.com/paypalme/blackKnights2036"
-                target="_blank"
+                to="/donate"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >

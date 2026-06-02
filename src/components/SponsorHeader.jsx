@@ -24,7 +24,7 @@ const SponsorHeader = () => {
           Thank you to all our sponsors for helping us achieve our goals and
           inspiring future innovators!
         </p>
-        <Button buttonStyle={"btn--black"} buttonSize={"btn--medium"}>
+        <Button buttonStyle={"btn--black"} buttonSize={"btn--medium"} linkTo={"/donate"}>
           Become a Sponsor
         </Button>
       </div>
