@@ -10,34 +10,14 @@ const News = () => {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/new-ssd.png"
-              text="Moving to a New Location"
-              label="Full Team"
-              path=""
-            />
-            <CardItem
-              src="images/upgrade-robot.jpeg"
-              text="Upgrading our Current Robot"
-              label="Programming/Mechanical"
-              path=""
-            />
-          </ul>
-          <ul className="cards__items">
-            <CardItem
-              src="images/pit-lol.jpg"
-              text="Building a Pit"
-              label="Mechanical"
-              path=""
-            />
-            <CardItem
-              src="images/for-kcmt.png"
+              src="images/CAD.png"
               text="Building a Second Robot for KCMT"
-              label="Mechanical"
+              label="Mechanical, Programming, Electrical"
               path=""
             />
             <CardItem
-              src="images/vision-systems.jpg"
-              text="Developing New Vision Systems"
+              src="images/limelight.png"
+              text="Improving Vision Systems"
               label="Programming"
               path=""
             />

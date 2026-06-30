@@ -43,6 +43,19 @@ const Home = () => {
         text="#939393"
         buttonText="Join Us"
         buttonColor="white"
+        link="https://forms.gle/Vo8iNLE77sbn9DeCA"
+      />
+
+      <HomeBlurb
+        header="Our Mission"
+        paragraph="The Black Knights are dedicated to shaping the future by empowering engineers with the empathy, creativity, and determination needed to overcome the worlds greatest challenges."
+        image="images/Cheering.jpeg"
+        background="#ab4545"
+        leftOrRight="left"
+        text="#242424"
+        buttonText="Join Us"
+        buttonColor="black"
+        link="https://forms.gle/Vo8iNLE77sbn9DeCA"
       />
 
       <News />
