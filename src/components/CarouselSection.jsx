@@ -54,6 +54,26 @@ const CarouselSection = () => {
           useKeyboardArrows={true}
         >
           <CarouselItem
+            background="/images/2026Robot.jpg"
+            gameImage="/images/2026GameLogo.png"
+            alt="Alliance Photo"
+            year="2026"
+            robotName="Kirby"
+            description="Our 2026 robot, Kirby, was designed to pick up and store large quantities of Fuel and then shoot that Fuel into the Hub with a turret that automatically adjusts its angle."
+            robotImage="/images/2026RobotClose.jpeg"
+            robotAlt="2026 Robot"
+          />
+          <CarouselItem
+            background="/images/2025Robot2.jpeg"
+            gameImage="/images/2025GameLogo.png"
+            alt="Alliance Photo"
+            year="2025"
+            robotName="Barracuda"
+            description="Our 2025 robot, Barracuda, was designed to pick up Coral from the Depot, remove Algae from the Reef, and drop Coral onto the Reef with a elevator to score on different levels."
+            robotImage="/images/2025RobotClose2.jpeg"
+            robotAlt="2025 Robot"
+          />
+          <CarouselItem
             background="/images/alliancePhoto.jpg"
             gameImage="/images/Crescendo_FRC_Logo.svg"
             alt="Alliance Photo"
